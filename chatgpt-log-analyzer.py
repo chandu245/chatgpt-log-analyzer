@@ -49,7 +49,7 @@ def query():
         try:
             es_query = generate_es_query(user_input)
             es_query_json = json.loads(es_query)
-            response = es.search(index="your_index_name", body=es_query_json)
+            response = es.search(index="your_index_name", body=es_query_json) #fill in your index here
             results = response['hits']['hits']
             summary_and_advice = summarize_and_advise(results)
             return jsonify({"summary_and_advice": summary_and_advice})
