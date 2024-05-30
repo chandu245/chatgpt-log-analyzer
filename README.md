@@ -38,17 +38,19 @@ This project leverages ChatGPT to analyze logs stored in Elasticsearch, providin
    ```bash
    py chatgpt-log-analyzer.py
 
-### Contributions
+## Contributions
 
 Contributions are welcome! If you have any suggestions, ideas, or encounter any issues, please feel free to open an issue or submit a pull request.
 
-### References
+## References
 
 - https://github.com/elastic/chatgpt-log-analysis
 - https://github.com/birkanatici/ELK-stack
 
-### Acknowledgments
+## Acknowledgments
 
 I would like to thank the developers of Elasticsearch, OpenAI's ChatGPT API, and other open-source libraries used in this project.
 
+## Output
 
+![](https://github.com/chandu245/chatgpt-log-analyzer/blob/main/output.png)
