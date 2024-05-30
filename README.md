@@ -36,7 +36,7 @@ This project leverages ChatGPT to analyze logs stored in Elasticsearch, providin
 3. Start the app
 
    ```bash
-   py chatgpt_log_analyzer.py
+   py chatgpt-log-analyzer.py
 
 ### Contributions
 
