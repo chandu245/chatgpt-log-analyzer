@@ -12,7 +12,12 @@ This project leverages ChatGPT to analyze logs stored in Elasticsearch, providin
 
 ## Requirements
 
-- Python 3.7+
+- local elk stack (refer : https://github.com/birkanatici/ELK-stack)
+- chatgpt api key
+- python 3.7+
+
+## Libraries
+
 - elasticsearch
 - openai
 - flask
@@ -33,7 +38,7 @@ This project leverages ChatGPT to analyze logs stored in Elasticsearch, providin
    ```bash
    cd chatgpt-log-analyzer
 
-3. Start the app
+3. Start the app:
 
    ```bash
    py chatgpt-log-analyzer.py
@@ -45,7 +50,6 @@ Contributions are welcome! If you have any suggestions, ideas, or encounter any 
 ## References
 
 - https://github.com/elastic/chatgpt-log-analysis
-- https://github.com/birkanatici/ELK-stack
 
 ## Acknowledgments
 
